@@ -16,23 +16,15 @@ const Navbar = () => {
 
         <NavMenu>
           <NavLink to='/about' activeStyle>
-            About
+            <b>Home</b>
           </NavLink>
           <NavLink to='/events' activeStyle>
-            Events
+            <b>Home1</b>
           </NavLink>
           <NavLink to='/annual' activeStyle>
-            Annual Report
+            <b>Home2</b>
           </NavLink>
-          <NavLink to='/team' activeStyle>
-            Teams
-          </NavLink>
-          <NavLink to='/blogs' activeStyle>
-            Blogs
-          </NavLink>
-          <NavLink to='/sign-up' activeStyle>
-            Sign Up
-          </NavLink>
+
 
         </NavMenu>
         <NavBtn>
@@ -44,3 +36,14 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+/*{<NavLink to='/team' activeStyle>
+  Teams
+</NavLink>
+<NavLink to='/blogs' activeStyle>
+  Blogs
+</NavLink>
+<NavLink to='/sign-up' activeStyle>
+  Sign Up
+</NavLink>}
+*/
